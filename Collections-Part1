@@ -105,7 +105,7 @@ Tabulating a function:
 Use function along with List.tabulate() to apply on all the elements before tabulating the list. The first argument determines the 
 dimesnions of the list to create, the second describes the elements of the list.
 
-Example:
+Example: //try this vega
 val squares = List.tabulate(6)(n => n * n)
 val mul = List.tabulate( 4,5 )( _ * _ )  //creates a 2d list where each element is a list containing 5 elements. The elements are computed as 
                                         product of respective indices that refer the element in the list.
