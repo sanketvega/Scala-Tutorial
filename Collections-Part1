@@ -56,10 +56,10 @@ val nums = 1 :: (2 :: (3 :: (4 :: Nil)))
 
 // Empty List.
 val empty = Nil
-
-// Two dimensional list
+ 
+// Two dimensional list   // :: double colon for editing
 val dim = (1 :: (0 :: (0 :: Nil))) ::
-          (0 :: (1 :: (0 :: Nil))) ::
+          (0 :: (1 :: (0 :: Nil))) ::                                   
           (0 :: (0 :: (1 :: Nil))) :: Nil
           
 Basic Operations on List:
